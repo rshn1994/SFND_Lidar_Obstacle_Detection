@@ -16,10 +16,10 @@ In this course we will be talking about sensor fusion, whch is the process of ta
 
 The workspace provided in the SFND classroom comes preinstallated with everything that you need to finish the exercises and projects. Versions used by Udacity for this ND are as follows:
 
-* Ubuntu 16.04
-* PCL - v1.7.2
-* C++ v11
-* gcc v5.5
+* Ubuntu 20.04
+* PCL - v1.10
+* C++ v14
+* gcc v9.4
 
 **Note** The [[CMakeLists.txt](https://github.com/udacity/SFND_Lidar_Obstacle_Detection/blob/master/CMakeLists.txt)] file provided in this repo can be used locally if you have the same package versions as mentioned above. If you want to run this project locally (outside the Udacity workspace), please follow the steps under the **Local Installation** section.
 
@@ -32,23 +32,23 @@ The workspace provided in the SFND classroom comes preinstallated with everythin
 
    ```sh
    cd ~
-   git clone https://github.com/udacity/SFND_Lidar_Obstacle_Detection.git
+   git clone https://github.com/rshn1994/SFND_Lidar_Obstacle_Detection.git
    ```
 
-2.  Edit [CMakeLists.txt](https://github.com/udacity/SFND_Lidar_Obstacle_Detection/blob/master/CMakeLists.txt) as follows:
+2.  Edit [CMakeLists.txt](https://github.com/rshn1994/SFND_Lidar_Obstacle_Detection/blob/master/CMakeLists.txt) as follows:
 
    ```cmake
    cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
-   
+
    add_definitions(-std=c++14)
-   
+
    set(CXX_FLAGS "-Wall")
    set(CMAKE_CXX_FLAGS, "${CXX_FLAGS}")
-   
+
    project(playback)
-   
-   find_package(PCL 1.11 REQUIRED)
-   
+
+   find_package(PCL 1.10 REQUIRED)
+
    include_directories(${PCL_INCLUDE_DIRS})
    link_directories(${PCL_LIBRARY_DIRS})
    add_definitions(${PCL_DEFINITIONS})
