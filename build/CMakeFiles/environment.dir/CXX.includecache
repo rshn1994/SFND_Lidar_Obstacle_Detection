@@ -7,12 +7,12 @@
 #IncludeRegexTransform: 
 
 /media/roshan/Storage2TB/SFND_Lidar_Obstacle_Detection/src/environment.cpp
-sensors/lidar.h
-/media/roshan/Storage2TB/SFND_Lidar_Obstacle_Detection/src/sensors/lidar.h
-render/render.h
-/media/roshan/Storage2TB/SFND_Lidar_Obstacle_Detection/src/render/render.h
 processPointClouds.h
 /media/roshan/Storage2TB/SFND_Lidar_Obstacle_Detection/src/processPointClouds.h
+render/render.h
+/media/roshan/Storage2TB/SFND_Lidar_Obstacle_Detection/src/render/render.h
+sensors/lidar.h
+/media/roshan/Storage2TB/SFND_Lidar_Obstacle_Detection/src/sensors/lidar.h
 processPointClouds.cpp
 /media/roshan/Storage2TB/SFND_Lidar_Obstacle_Detection/src/processPointClouds.cpp
 
